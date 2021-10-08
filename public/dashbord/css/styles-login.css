@@ -1,0 +1,127 @@
+        .login-screen {
+            padding-top: 40px;
+            width: 95%;
+            max-width:400px;
+            margin: 0 auto;
+        }
+
+        .login-screen .login-logo {
+            margin: 20px 0 20px 0;
+            text-align: center;
+            display: block;
+        }
+
+        .login-screen .login-logo > img {
+            margin: 0;
+            max-height: 100px;
+            width:auto;max-width:100%;
+        }
+
+        .login-container {
+            position: relative;
+            box-shadow: 0px 25px 15px -15px #d3d7e9;
+            background: #ffffff;
+            margin: 0 auto;
+            border-radius: 25px;
+        }
+
+        .login-container .login-box {
+            padding: 50px 20px;
+        }
+
+        .login-container .login-box h5 {
+            margin: 0 0 20px 0;
+            color: #179978;
+        }
+
+        .login-container .actions {
+            margin-top: 15px;
+            display: block;
+            margin-bottom: 30px;
+        }
+
+        .login-container .actions a {
+            color: #179978;
+            text-decoration: none;
+            margin-top: 12px;
+            display: inline-block;
+        }
+
+        .login-container .actions a:hover {
+            text-decoration: underline;
+        }
+
+        .login-container .actions .btn {
+            float: right;
+            -webkit-border-radius: 30px;
+            -moz-border-radius: 30px;
+            border-radius: 30px;
+            padding: 8px 25px;
+        }
+
+        .login-container a.additional-link {
+            color: #179978;
+            text-decoration: none;
+            margin: 40px auto 0 auto;
+            text-align: center;
+            display: block;
+        }
+
+        .login-container a.additional-link span {
+            text-decoration: underline;
+            color: #000000;
+        }
+
+        .login-container p.info {
+            padding: 0;
+            margin: 0 0 20px 0;
+            line-height: 150%;
+            color: #858b9a;
+        }
+
+        .login-slider {
+            background: url("/admins/img/login_bg.png") center center no-repeat;
+            background-size: cover;
+            height: 100%;
+            position: relative;
+        }
+
+        .login-slider .play-icon {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 90px;
+            height: 90px;
+            margin-left: -35px;
+            margin-top: -35px;
+        }
+
+        .login-bg {
+            background: url("/admins/img/login_bg.png") center center no-repeat !important;
+            background-size: cover;
+            height: 100%;
+            position: relative;
+        }
+
+        @media (max-width: 767px) {
+            .login-slider {
+                display: none;
+            }
+
+            .signup-slider {
+                display: none;
+            }
+        }
+
+
+        .btn-info, .btn-primary, .page-item.active .page-link, .btn-info:hover, .btn-primary:hover {
+            background-color: #113A80;
+            border-color: #113A80;
+        }
+
+
+        .form-control {
+            border-radius: 20px;
+        }
+
+		.header-actions > li{display:block!important;}
